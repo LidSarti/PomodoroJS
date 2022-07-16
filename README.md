@@ -10,5 +10,6 @@
     <img align="center" alt="Lid-JS" heigt="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
 </div>
 <div>
+    <h2>⏱️ Resultado</h2>
     <img align="center" alt="Resultado" src="./assets/img/ResultadoPomodoro.jpg"/>
 </div>
