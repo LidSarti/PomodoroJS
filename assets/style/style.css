@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(rgb(252, 226, 230), rgb(255, 208, 215));
+    width: 100vw;
+    height: 100vh;  
+}
+
+.container {
+    border-radius :20px;
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background: rgb(230, 96, 96);
+}
+
+.timer {
+    color: rgb(255, 255, 252);
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    border: 5px solid rgb(185, 75, 75); 
+    font-size:50px; 
+    margin:10px auto;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+    cursor:default;
+}
+
+#time {
+    margin-top: 65px;
+    z-index: 1;
+    position: relative;
+}
+
+.filler {
+    background: aqua;
+    height: 0;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+#buttons button {
+    border:none; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+}
+
+#buttons button#work {
+    background-color: rgb(210, 85, 85);
+}
+
+#buttons button#shortBreak {
+    background-color: rgb(185, 67, 67);
+}
+
+#buttons button#longBreak {
+    background-color: rgb(162, 59, 59);
+}
+
+#buttons button#stop {
+    background-color: rgb(141, 50, 50);
+}
